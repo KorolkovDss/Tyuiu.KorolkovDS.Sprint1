@@ -9,7 +9,7 @@ namespace Tyuiu.KorolkovDS.Sprint1.Task6.V14.Lib
 
         public bool CheckLowerCaseRusLetters(string value)
         {
-            if (value.Contains("привет"))
+            if (value.Contains("строка"))
             {
                 return true;
             }

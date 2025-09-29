@@ -9,7 +9,7 @@ namespace Tyuiu.KorolkovDS.Sprint1.Task6.V14.Test
         public void ValidString()
         {
             DataService ds = new DataService();
-            string str = "привет";
+            string str = "строка";
             
             bool wait = true;
             var res = ds.CheckLowerCaseRusLetters(str);
