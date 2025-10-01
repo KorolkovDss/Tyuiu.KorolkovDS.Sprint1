@@ -8,7 +8,7 @@ namespace Tyuiu.KorolkovDS.Sprint1.Task7.V29.Lib
         public double Calculate(double x, double y)
         {
             double z;
-            z = x - Math.Pow(Math.Cos(x), 3) / (x * y - 3) + Math.Pow(Math.Sin(x), 5) / (x * y + 5);
+            z = x - (Math.Cos(Math.Pow(x,3)) / (x * y - 3)) +( Math.Sin(Math.Pow(x, 5)) / (x * y + 5));
 
             return Math.Round(z,3);
         }

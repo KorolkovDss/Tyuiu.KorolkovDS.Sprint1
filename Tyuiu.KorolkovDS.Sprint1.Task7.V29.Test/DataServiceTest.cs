@@ -9,9 +9,9 @@ namespace Tyuiu.KorolkovDS.Sprint1.Task7.V29.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 5;
-            double y = 5;
-            double wait = 4.972;
+            double x = 2;
+            double y = 4;
+            double wait = 2.072;
             var res = ds.Calculate(x,y);
             Assert.AreEqual(wait ,res);
         }
